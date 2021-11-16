@@ -25,7 +25,7 @@ export default {
   },
   methods: {
     search() {
-      this.$emit('onType', this.inputText)
+      this.$emit('onType', this.inputText.toLowerCase())
     }
   }
 }
